@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/TodoApp');
+var uri = 'mongodb://localhost:27017/TodoApp';
 
-
+mongoose.connect(uri, {useMongoClient: true});
 module.exports = {mongoose};

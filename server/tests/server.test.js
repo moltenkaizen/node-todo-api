@@ -50,3 +50,24 @@ describe('POST /todos', () => {
       });
   });
 });
+
+// describe('GET /todos', () => {
+//   it('should get todos', (done) => {
+//     request(app)
+//       .get('/todos')
+//       .expect(200)
+//       .expect((res) => {
+//         expect(res.body).toExist().toBeA('array');
+//         expect(res.body.length).toBeGreaterThan(0);
+//       })
+//       .end((err, res) => {
+//         if (err) {
+//           return done(err);
+//         }
+//         Todo.find({}).then((todos) => {
+//           expect(todos).toBe(todos);
+//           done();
+//         }).catch((e) => done(e));
+//       });
+//   });
+// });
