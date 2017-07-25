@@ -1,7 +1,7 @@
 /**
  * Created by dude on 7/3/17.
  */
-require('../config/config');
+require('./config/config');
 
 const _ = require('lodash');
 const express = require('express');
