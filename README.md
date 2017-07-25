@@ -1,13 +1,13 @@
 # Node Todo API
 
-####CRUD Todo API (POST, GET, PATCH, DELETE)
+#### CRUD Todo API (POST, GET, PATCH, DELETE)
 * POST /todos
 * GET /todos
 * GET /todos/:id
 * PATCH /todos/:id
 * DELETE /todos/:id
 
-####JWT Based Authentication
+#### JWT Based Authentication
 * POST /users
 * GET /users/me
 * POST /users/login
